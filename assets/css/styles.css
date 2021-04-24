@@ -49,11 +49,34 @@ nav .nav-right-section img {
 
 main {
   height: 100vh;
+  margin-top: 150px;
   text-align: center;
-  background: rgb(236, 236, 236);
 }
 
 main .main-logo {
   width: 530px;
   margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+}
+
+main .main-input-container input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
 }
